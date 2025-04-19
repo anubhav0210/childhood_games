@@ -1,0 +1,148 @@
+* {box-sizing:border;}
+*{background-color:white;}
+*{
+  height: none;
+  width: none;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  max-height: 400px;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  border-color: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  border-color: black;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #111111;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #141313;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.slide{
+  background-color: #111111;
+  padding: auto;
+
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#icon-text{
+  margin-top: 15px;
+  gap: 20px;
+  margin-left: 20px;
+  color: black;
+  font-size: 25px;
+  font-weight: 25px;
+  font-style: italic;
+  text-decoration: underline;
+}
+#icon{
+  height: 180px;
+  width: 180px;
+  border: 8px solid;
+  border-style:ridge;
+  border-radius: 90%;
+  border-color: orangered;
+}
+#icon{
+  text-align: center;
+}
+#app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.app-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.app-image {
+  flex: 1;
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.app-details {
+  flex: 2;
+}
+
+h2 {
+  margin: 0;
+}
+
+.app-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.app-description {
+  color: #666;
+  font-size: 14px;
+}
